@@ -1,0 +1,32 @@
+{
+  "satiety": {
+    "dailyKcalPerKg": 30,
+    "thresholds": [
+      {
+        "id": "light",
+        "maxDishToDailyRatio": 0.2,
+        "label": "Lehké jídlo, klidně si přidej i dezert",
+        "tone": "success"
+      },
+      {
+        "id": "balanced",
+        "maxDishToDailyRatio": 0.3,
+        "label": "Akorát na plnohodnotný oběd",
+        "tone": "ok"
+      },
+      {
+        "id": "filling",
+        "maxDishToDailyRatio": 0.4,
+        "label": "Pořádná porce, večeři si dej lehčí",
+        "tone": "warning"
+      },
+      {
+        "id": "heavy",
+        "maxDishToDailyRatio": null,
+        "label": "Na jedno jídlo je toho spíš hodně",
+        "tone": "danger"
+      }
+    ],
+    "disclaimer": "Orientační výpočet. Denní potřeba energie závisí i na věku, pohlaví a množství pohybu. Výsledek ber jako tip, ne jako výživové doporučení."
+  }
+}

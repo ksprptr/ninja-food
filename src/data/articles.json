@@ -1,0 +1,116 @@
+[
+  {
+    "slug": "jak-vznika-ninja-burger",
+    "title": "Jak vzniká Ninja Burger",
+    "excerpt": "Od výběru masa po domácí teriyaki. Co všechno se děje, než burger dorazí na tvůj stůl.",
+    "readingTimeMin": 5,
+    "publishedAt": "2026-09-03",
+    "relatedCategories": ["burgery"],
+    "sections": [
+      {
+        "heading": "Maso od jednoho dodavatele",
+        "paragraphs": [
+          "Hovězí odebíráme od jedné farmy z Vysočiny. Zadní a krk necháváme vyzrát a meleme je každé ráno přímo v kuchyni, takže placky nikdy nejsou z mrazáku.",
+          "Poměr masa a tuku držíme na 80 ku 20. Méně tuku by znamenalo suchou placku, víc by zase přebilo chuť omáčky."
+        ]
+      },
+      {
+        "heading": "Teriyaki, které vaříme sami",
+        "paragraphs": [
+          "Omáčku vaříme ze sójové omáčky, mirinu, zázvoru a třtinového cukru. Redukuje se zhruba hodinu, dokud nezhoustne natolik, že drží na placce."
+        ]
+      },
+      {
+        "heading": "Brioška a poslední detaily",
+        "paragraphs": [
+          "Bulky nám peče pekárna dvě ulice od nás. Před podáváním je opečeme na másle a burger doplníme karamelizovanou cibulí, čedarem a pikantní majonézou."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "proc-varime-vyvar-18-hodin",
+    "title": "Proč vaříme vývar na ramen 18 hodin",
+    "excerpt": "Krémový tonkotsu se nedá uspěchat. Vysvětlujeme, co se ve velkém hrnci celou noc děje.",
+    "readingTimeMin": 4,
+    "publishedAt": "2026-09-17",
+    "relatedCategories": ["polevky"],
+    "sections": [
+      {
+        "heading": "Kosti, voda a čas",
+        "paragraphs": [
+          "Základem jsou vepřové kosti a kůže. Při dlouhém a prudkém varu se z nich uvolňuje kolagen a tuk, které vývaru dodají typickou krémovou barvu a hutnost."
+        ]
+      },
+      {
+        "heading": "Noční směna",
+        "paragraphs": [
+          "Vývar nasazujeme odpoledne a hlídáme ho celou noc. Průběžně dolíváme vodu a sbíráme pěnu, aby výsledek nebyl kalný ani hořký.",
+          "Ráno ho přecedíme, dochutíme a připravíme do porcí. Co se za den neprodá, už další den nepoužijeme."
+        ]
+      },
+      {
+        "heading": "A co vegetariáni?",
+        "paragraphs": [
+          "Pro ně máme Spicy Miso Ramen s vývarem z řasy kombu a hub shiitake. Vaří se kratší dobu, ale chuť má stejně výraznou."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "palivost-v-nasem-menu",
+    "title": "Pálivost v našem menu od nuly do trojky",
+    "excerpt": "Co znamenají jednotlivé stupně pálivosti a jak si objednat jídlo přesně podle sebe.",
+    "readingTimeMin": 3,
+    "publishedAt": "2026-10-01",
+    "relatedCategories": ["bowly", "snacky"],
+    "sections": [
+      {
+        "heading": "Stupnice od 0 do 3",
+        "paragraphs": [
+          "Nula znamená žádné chilli. Jednička jemně zahřeje, dvojka je pro ty, kdo pálivé jídlo jedí běžně, a trojka je naše nejostřejší úroveň."
+        ]
+      },
+      {
+        "heading": "Čím pálíme",
+        "paragraphs": [
+          "Používáme korejskou pastu gochujang, japonskou směs shichimi, domácí chilli olej a čerstvé thajské chilli. Každé pálí jinak a jinak dlouho."
+        ]
+      },
+      {
+        "heading": "Úprava na přání",
+        "paragraphs": [
+          "Většinu jídel umíme připravit méně pálivá. Stačí to napsat do poznámky k objednávce nebo říct obsluze u pultu."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "jak-objednavat-s-alergii",
+    "title": "Jak u nás objednávat s alergií",
+    "excerpt": "Kde najdeš alergeny, na co si dát pozor a proč nám vždycky můžeš napsat.",
+    "readingTimeMin": 4,
+    "publishedAt": "2026-10-08",
+    "relatedCategories": ["bowly", "dezerty"],
+    "sections": [
+      {
+        "heading": "Alergeny u každého jídla",
+        "paragraphs": [
+          "U každé položky v menu uvádíme alergeny podle čísel 1 až 14. Co jednotlivá čísla znamenají, najdeš na stránce Alergeny."
+        ]
+      },
+      {
+        "heading": "Stopová množství",
+        "paragraphs": [
+          "V kuchyni zpracováváme všech čtrnáct alergenů a používáme sdílené fritézy. Stopová množství proto nedokážeme vyloučit ani u jídel, která daný alergen neobsahují."
+        ]
+      },
+      {
+        "heading": "Napiš nám",
+        "paragraphs": [
+          "Pokud máš silnou alergii, napiš ji do poznámky k objednávce. Kuchař pak jídlo připraví zvlášť a s čistým náčiním."
+        ]
+      }
+    ]
+  }
+]

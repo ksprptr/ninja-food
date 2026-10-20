@@ -1,0 +1,9 @@
+[
+  { "slug": "americka", "name": "Americká", "country": "USA" },
+  { "slug": "japonska", "name": "Japonská", "country": "Japonsko" },
+  { "slug": "korejska", "name": "Korejská", "country": "Jižní Korea" },
+  { "slug": "mexicka", "name": "Mexická", "country": "Mexiko" },
+  { "slug": "thajska", "name": "Thajská", "country": "Thajsko" },
+  { "slug": "vietnamska", "name": "Vietnamská", "country": "Vietnam" },
+  { "slug": "havajska", "name": "Havajská", "country": "Havaj" }
+]
