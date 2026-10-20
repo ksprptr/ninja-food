@@ -1,0 +1,12 @@
+services:
+  ninja-food:
+    build:
+      context: .
+      args:
+        # Inlined into the static pages (sitemap, robots), so it is set at build time
+        NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_SITE_URL:-http://localhost:8080}
+    image: ninja-food
+    container_name: ninja-food
+    restart: unless-stopped
+    ports:
+      - '${NINJA_FOOD_PORT:-8080}:8080'
