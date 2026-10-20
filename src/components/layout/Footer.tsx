@@ -2,7 +2,6 @@ import { navbarLinks } from '@/common/data/navbar-links.data';
 import { delivery } from '@/common/lib/delivery';
 
 import ThemeChanger from '../ui/ThemeChanger';
-import { TriangleAlert } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -66,7 +65,10 @@ export default function Footer() {
         {/* Copyright, theme changer and author */}
         <div className='border-line text-caption text-ink-soft dark:border-line-night mt-10 flex flex-wrap items-center justify-between gap-2 border-t pt-5'>
           <div className='flex flex-wrap items-center gap-x-4 gap-y-2'>
-            <p>&copy; {new Date().getFullYear()} NinjaFood</p>
+            <p>
+              &copy; {new Date().getFullYear()} NinjaFood. Část obsahu je vytvořena s pomocí umělé
+              inteligence.
+            </p>
             <ThemeChanger />
           </div>
           <p>
