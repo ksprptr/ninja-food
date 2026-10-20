@@ -114,4 +114,5 @@ Configuration lives in `.env`, created from `.env.example`. Docker Compose reads
 
 ## License
 
-[MIT](./LICENSE) © Petr Kašpar
+> This software is developed by **Petr Kašpar** and is licensed under the MIT License.  
+> For more details, please refer to the [LICENSE](LICENSE) file.
