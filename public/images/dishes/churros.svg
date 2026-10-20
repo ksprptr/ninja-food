@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Churros s čokoládou">
+<ellipse cx="100" cy="176" rx="70" ry="8" fill="#2b2b22" opacity=".12"/>
+<g transform="rotate(-14 76 140)"><rect x="66" y="34" width="20" height="110" rx="10" fill="#d98c3c" stroke="#2b2b22" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><path d="M73 42 V136 M80 42 V136" stroke="#b56a24" stroke-width="2.5"/></g>
+<g transform="rotate(0 100 140)"><rect x="90" y="34" width="20" height="110" rx="10" fill="#d98c3c" stroke="#2b2b22" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><path d="M97 42 V136 M104 42 V136" stroke="#b56a24" stroke-width="2.5"/></g>
+<g transform="rotate(14 124 140)"><rect x="114" y="34" width="20" height="110" rx="10" fill="#d98c3c" stroke="#2b2b22" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><path d="M121 42 V136 M128 42 V136" stroke="#b56a24" stroke-width="2.5"/></g>
+<circle cx="70" cy="52" r="2.2" fill="#fff4d2"/><circle cx="98" cy="46" r="2.2" fill="#fff4d2"/><circle cx="124" cy="58" r="2.2" fill="#fff4d2"/><circle cx="84" cy="70" r="2.2" fill="#fff4d2"/><circle cx="112" cy="66" r="2.2" fill="#fff4d2"/>
+<path d="M54 100 H146 L136 168 H64 Z" fill="#f6f1e3" stroke="#2b2b22" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><path d="M57 118 H143 M60 140 H140" stroke="#7ccf00" stroke-width="6"/>
+<path d="M140 150 Q140 172 162 172 Q184 172 184 150 Z" fill="#f6f3ea" stroke="#2b2b22" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="162" cy="150" rx="22" ry="7" fill="#5a2f1c" stroke="#2b2b22" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>
