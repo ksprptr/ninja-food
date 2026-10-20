@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "burgery",
+    "name": "Burgery",
+    "description": "Šťavnaté placky z vyzrálého hovězího, křupavé kuře i rostlinné varianty v briošce.",
+    "icon": "hamburger"
+  },
+  {
+    "slug": "wrapy",
+    "name": "Wrapy a tacos",
+    "description": "Všechno, co se dá zabalit do tortilly. Ideální oběd do ruky, když spěcháš.",
+    "icon": "sandwich"
+  },
+  {
+    "slug": "bowly",
+    "name": "Bowly",
+    "description": "Rýže nebo quinoa, čerstvá zelenina a porce proteinu. Vyvážené jídlo v jedné misce.",
+    "icon": "salad"
+  },
+  {
+    "slug": "polevky",
+    "name": "Polévky a ramen",
+    "description": "Poctivé vývary vařené celé hodiny. Od japonského ramenu po thajskou tom kha.",
+    "icon": "soup"
+  },
+  {
+    "slug": "snacky",
+    "name": "Snacky",
+    "description": "Hranolky, křidélka, gyozy a další drobnosti k jídlu i na sdílení s partou.",
+    "icon": "drumstick"
+  },
+  {
+    "slug": "dezerty",
+    "name": "Dezerty",
+    "description": "Sladká tečka na konec. Mochi, churros a dezerty inspirované Asií.",
+    "icon": "ice-cream-cone"
+  },
+  {
+    "slug": "napoje",
+    "name": "Nápoje",
+    "description": "Domácí limonády, ledové čaje a osvěžení, které se hodí i k pálivým jídlům.",
+    "icon": "cup-soda"
+  }
+]

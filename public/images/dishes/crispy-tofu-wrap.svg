@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Crispy Tofu Wrap">
+<ellipse cx="100" cy="170" rx="70" ry="8" fill="#2b2b22" opacity=".12"/>
+<g transform="rotate(-22 100 110)">
+<rect x="26" y="76" width="140" height="68" rx="34" fill="#cfe3a0" stroke="#2b2b22" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M60 92 L72 92 M84 92 L96 92 M66 128 L78 128 M98 126 L110 126" stroke="#c98f45" stroke-width="5" stroke-linecap="round"/>
+<rect x="40" y="72" width="46" height="76" rx="8" fill="#f6f1e3" stroke="#2b2b22" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M40 92 H86 M40 128 H86" stroke="#7ccf00" stroke-width="6"/>
+<ellipse cx="164" cy="110" rx="20" ry="34" fill="#fff3d6" stroke="#2b2b22" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="160" cy="96" r="9" fill="#f2c66d" stroke="#2b2b22" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><circle cx="170" cy="114" r="7" fill="#f28c28" stroke="#2b2b22" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><circle cx="156" cy="122" r="8" fill="#fffaf0" stroke="#2b2b22" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><circle cx="168" cy="128" r="5" fill="#5fa83a" stroke="#2b2b22" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><circle cx="154" cy="106" r="6" fill="#f2c66d" stroke="#2b2b22" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+</svg>

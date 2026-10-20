@@ -1,0 +1,9 @@
+[
+  { "slug": "americka", "name": "Americká" },
+  { "slug": "japonska", "name": "Japonská" },
+  { "slug": "korejska", "name": "Korejská" },
+  { "slug": "mexicka", "name": "Mexická" },
+  { "slug": "thajska", "name": "Thajská" },
+  { "slug": "vietnamska", "name": "Vietnamská" },
+  { "slug": "havajska", "name": "Havajská" }
+]

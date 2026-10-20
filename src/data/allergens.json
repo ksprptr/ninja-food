@@ -1,0 +1,72 @@
+[
+  {
+    "code": 1,
+    "name": "Obiloviny obsahující lepek",
+    "description": "Pšenice, žito, ječmen, oves, špalda a výrobky z nich. U nás hlavně bulky, tortilly, nudle a sójová omáčka."
+  },
+  {
+    "code": 2,
+    "name": "Korýši",
+    "description": "Krevety, krabi, humři a výrobky z nich. Najdeš je hlavně v pastách a omáčkách asijské kuchyně."
+  },
+  {
+    "code": 3,
+    "name": "Vejce",
+    "description": "Vejce a výrobky z nich, včetně majonéz, těstíček a některých druhů nudlí."
+  },
+  {
+    "code": 4,
+    "name": "Ryby",
+    "description": "Ryby a výrobky z nich. Pozor i na rybí omáčku, která je základem thajské a vietnamské kuchyně."
+  },
+  {
+    "code": 5,
+    "name": "Arašídy",
+    "description": "Podzemnice olejná a výrobky z ní, například arašídové omáčky, pasty a oleje."
+  },
+  {
+    "code": 6,
+    "name": "Sójové boby",
+    "description": "Sója a výrobky z ní. Patří sem sójová omáčka, miso, tofu i edamame."
+  },
+  {
+    "code": 7,
+    "name": "Mléko",
+    "description": "Mléko a mléčné výrobky včetně laktózy, tedy sýry, máslo, smetana i zmrzlina."
+  },
+  {
+    "code": 8,
+    "name": "Skořápkové plody",
+    "description": "Mandle, lískové a vlašské ořechy, kešu, pekanové a para ořechy, pistácie a makadamie."
+  },
+  {
+    "code": 9,
+    "name": "Celer",
+    "description": "Celer a výrobky z něj. Bývá součástí vývarů, omáček a kořenících směsí."
+  },
+  {
+    "code": 10,
+    "name": "Hořčice",
+    "description": "Hořčice a výrobky z ní, typicky omáčky, dresinky a marinády."
+  },
+  {
+    "code": 11,
+    "name": "Sezamová semena",
+    "description": "Sezam a výrobky z něj včetně sezamového oleje, pasty tahini a posypů na bulkách."
+  },
+  {
+    "code": 12,
+    "name": "Oxid siřičitý a siřičitany",
+    "description": "V koncentraci nad 10 mg/kg. Vyskytuje se hlavně v sušeném ovoci, víně a některých nálevech."
+  },
+  {
+    "code": 13,
+    "name": "Vlčí bob",
+    "description": "Lupina a výrobky z ní. Občas se používá v bezlepkových moukách a pečivu."
+  },
+  {
+    "code": 14,
+    "name": "Měkkýši",
+    "description": "Slávky, ústřice, chobotnice, sépie a výrobky z nich, včetně ústřicové omáčky."
+  }
+]

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Tom kha kai">
+<ellipse cx="100" cy="172" rx="72" ry="8" fill="#2b2b22" opacity=".12"/>
+
+<ellipse cx="100" cy="92" rx="74" ry="22" fill="#f3e2b3" stroke="#2b2b22" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<clipPath id="broth"><ellipse cx="100" cy="92" rx="72" ry="20"/></clipPath>
+<g clip-path="url(#broth)"><circle cx="64" cy="90" r="9" fill="#f6efe0" stroke="#2b2b22" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><circle cx="84" cy="98" r="8" fill="#f6efe0" stroke="#2b2b22" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><path d="M104 86 q6 -12 14 0 Z" fill="#c9a36b" stroke="#2b2b22" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><path d="M120 96 q6 -12 14 0 Z" fill="#c9a36b" stroke="#2b2b22" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><path d="M0 0 Q10 -10 22 0 Q10 10 0 0 Z" fill="#4e9a2f" stroke="#2b2b22" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" transform="translate(136 82) rotate(-10) scale(1)"/><path d="M0 0 Q10 -10 22 0 Q10 10 0 0 Z" fill="#4e9a2f" stroke="#2b2b22" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" transform="translate(52 100) rotate(20) scale(1)"/><path d="M96 100 L112 94" stroke="#d62828" stroke-width="5" stroke-linecap="round"/><circle cx="74" cy="82" r="2.4" fill="#e2733a"/><circle cx="146" cy="98" r="2.4" fill="#e2733a"/><circle cx="110" cy="82" r="2.4" fill="#e2733a"/></g>
+<path d="M26 92 Q100 126 174 92 Q172 156 100 162 Q28 156 26 92 Z" fill="#2f6f4f" stroke="#2b2b22" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M48 128 L58 138 L68 128 L78 138 L88 128 L98 138 L108 128 L118 138 L128 128 L138 138 L148 128" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" opacity=".75"/>
+<path d="M44 112 Q50 128 64 136" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity=".55"/>
+</svg>

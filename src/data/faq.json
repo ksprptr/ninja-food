@@ -1,0 +1,42 @@
+[
+  {
+    "id": "rozvoz",
+    "question": "Kam všude rozvážíte?",
+    "answer": "Vozíme po celém Hradci Králové ve třech zónách. Cena dopravy a minimální objednávka se liší podle vzdálenosti, nad 690 Kč vozíme zdarma. Přehled najdeš na stránce Rozvoz."
+  },
+  {
+    "id": "doba-doruceni",
+    "question": "Jak dlouho trvá, než jídlo dorazí?",
+    "answer": "V centru obvykle do 35 minut, v okrajových částech do hodiny. V pátek a v sobotu večer počítej s mírným zpožděním, to máme nejvíc objednávek."
+  },
+  {
+    "id": "platba",
+    "question": "Jak můžu zaplatit?",
+    "answer": "Na místě kartou, hotově i přes Apple Pay a Google Pay. U rozvozu platíš kartou online, nebo kurýrovi kartou či hotově při převzetí."
+  },
+  {
+    "id": "alergeny",
+    "question": "Kde najdu informace o alergenech?",
+    "answer": "U každého jídla v menu je seznam alergenů podle čísel 1 až 14. Přehled všech alergenů je na stránce Alergeny. Pokud si nejsi jistý, zeptej se obsluhy."
+  },
+  {
+    "id": "vegan",
+    "question": "Máte i veganská jídla?",
+    "answer": "Ano. V menu si zapni filtr Veganské a uvidíš všechno, co je čistě rostlinné. Od Green Ninja Burgeru přes Spicy Miso Ramen až po mango sticky rice."
+  },
+  {
+    "id": "palivost",
+    "question": "Jak poznám, jak moc je jídlo pálivé?",
+    "answer": "Každé jídlo má pálivost na stupnici od 0 do 3. Nula znamená bez chilli, trojka je pro opravdové fanoušky ostrého. Pálivost ti na požádání rádi snížíme."
+  },
+  {
+    "id": "rezervace",
+    "question": "Dá se u vás rezervovat stůl?",
+    "answer": "Pro skupiny od šesti lidí ano, stačí zavolat nebo napsat aspoň den předem. Menší skupiny obsluhujeme bez rezervace podle toho, jak se uvolňují místa."
+  },
+  {
+    "id": "obaly",
+    "question": "Jaké používáte obaly?",
+    "answer": "Kompostovatelné krabičky z cukrové třtiny a papírové tašky. Plastové příbory nepřibalujeme automaticky, při objednávce si o ně ale můžeš říct."
+  }
+]

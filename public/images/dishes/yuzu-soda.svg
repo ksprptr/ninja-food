@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Yuzu soda">
+<ellipse cx="100" cy="176" rx="46" ry="8" fill="#2b2b22" opacity=".12"/>
+<rect x="62" y="40" width="76" height="132" rx="12" fill="#ffd23f" stroke="#2b2b22" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M66 48 Q100 40 134 48" fill="none" stroke="#cfd2c8" stroke-width="8" stroke-linecap="round"/>
+<path d="M62 132 Q82 120 100 132 T138 132 V160 Q138 172 126 172 H74 Q62 172 62 160 Z" fill="#9ae600" stroke="#2b2b22" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="100" cy="92" r="20" fill="#fff4b0" stroke="#2b2b22" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><path d="M100 72 V112 M80 92 H120 M86 78 L114 106 M114 78 L86 106" stroke="#e8b400" stroke-width="2.5"/>
+<path d="M74 54 L74 120" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity=".55"/>
+<circle cx="44" cy="70" r="4" fill="#fff" stroke="#2b2b22" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="154" cy="60" r="4" fill="#fff" stroke="#2b2b22" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="150" cy="100" r="4" fill="#fff" stroke="#2b2b22" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="40" cy="112" r="4" fill="#fff" stroke="#2b2b22" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

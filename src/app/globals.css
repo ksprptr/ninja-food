@@ -1,0 +1,55 @@
+@import 'tailwindcss';
+
+@config '../../tailwind.config.ts';
+
+@layer base {
+  :root {
+    --ink-soft: #5b5b4b;
+    --accent: #5ea500;
+    --accent-deep: #3c6300;
+    --blob: #d8f999;
+    --tone-success: #19713e;
+    --tone-ok: #2561b5;
+    --tone-warning: #825d08;
+    --tone-danger: #b33528;
+  }
+
+  .dark {
+    --ink-soft: #abab9c;
+    --accent: #9ae600;
+    --accent-deep: #bbf451;
+    --blob: #35530e;
+    --tone-success: #45b380;
+    --tone-ok: #6b9fe8;
+    --tone-warning: #d4a93f;
+    --tone-danger: #e57368;
+  }
+
+  * {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-paper text-body text-ink dark:bg-night dark:text-night-ink font-sans;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-display;
+    font-variation-settings:
+      'SOFT' 100,
+      'WONK' 0;
+  }
+
+  ::selection {
+    @apply bg-blob;
+  }
+
+  a,
+  button,
+  input,
+  select {
+    @apply outline-accent select-none hover:cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2;
+  }
+}

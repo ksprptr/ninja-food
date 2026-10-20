@@ -1,0 +1,21 @@
+# dependencies and build output, rebuilt inside the image
+node_modules
+.next
+out
+coverage
+*.tsbuildinfo
+next-env.d.ts
+
+# local files
+.git
+.husky/_
+.env*
+!.env.example
+.DS_Store
+*.pem
+*.log
+
+# docker
+Dockerfile
+docker-compose.yml
+.dockerignore

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Matcha limonáda">
+<ellipse cx="100" cy="176" rx="44" ry="8" fill="#2b2b22" opacity=".12"/>
+<path d="M58 48 L142 48 L132 170 L68 170 Z" fill="#eef4ec" stroke="#2b2b22" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M62 76 L138 76 L132 166 L68 166 Z" fill="#9ccc65"/>
+
+<rect x="74" y="98" width="22" height="22" rx="5" fill="#fff" opacity=".7" stroke="#2b2b22" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" transform="rotate(-12 85 109)"/><rect x="102" y="112" width="20" height="20" rx="5" fill="#fff" opacity=".7" stroke="#2b2b22" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" transform="rotate(14 112 122)"/>
+<path d="M58 48 L142 48 L132 170 L68 170 Z" fill="none" stroke="#2b2b22" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M112 120 L136 22" stroke="#2b2b22" stroke-width="12" stroke-linecap="round"/><path d="M112 120 L136 22" stroke="#9ae600" stroke-width="6" stroke-linecap="round"/>
+<circle cx="58" cy="52" r="18" fill="#d8f999" stroke="#2b2b22" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><path d="M58 38 V66 M44 52 H72 M48 42 L68 62 M68 42 L48 62" stroke="#7ccf00" stroke-width="2.5"/><path d="M0 0 Q10 -10 22 0 Q10 10 0 0 Z" fill="#4e9a2f" stroke="#2b2b22" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" transform="translate(130 44) rotate(-40) scale(1)"/>
+<path d="M72 60 L78 150" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity=".55"/>
+</svg>
