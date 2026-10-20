@@ -25,6 +25,7 @@ export default function ThemeChanger() {
   return (
     <button
       type='button'
+      data-requires-js
       onClick={toggleTheme}
       className='group rounded-pill text-ink-soft ring-line hover:text-ink dark:ring-line-night dark:hover:text-night-ink inline-flex items-center gap-2 px-3 py-1.5 font-medium ring-1 transition-colors'>
       {/* Labels are switched by CSS, so the server render matches the client */}

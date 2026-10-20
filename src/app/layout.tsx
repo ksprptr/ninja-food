@@ -42,11 +42,11 @@ export default function RootLayout({ children }: LayoutProps<'/'>) {
       suppressHydrationWarning>
       <head>
         <meta name='apple-mobile-web-app-title' content='NinjaFood' />
-        {/* Without JavaScript, content waiting for an animation or a toggle stays visible */}
+        {/* Without JavaScript, animated content is shown and controls that need it are hidden or inert */}
         <noscript>
           <style>
             {
-              '[style*="opacity:0"],[style*="scale(0)"]{opacity:1!important;transform:none!important}main [style*="height:0px"]{height:auto!important}'
+              '[data-reveal]{opacity:1!important;transform:none!important}[data-expand]{height:auto!important;opacity:1!important}[data-requires-js]{display:none!important}[data-js-interactive]{cursor:auto!important}[data-js-interactive]:hover{background-color:transparent!important}'
             }
           </style>
         </noscript>

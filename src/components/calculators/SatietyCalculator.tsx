@@ -53,24 +53,33 @@ export default function SatietyCalculator() {
       <div className='grid gap-6 lg:grid-cols-[1fr_1.1fr]'>
         {/* Body weight and dish selection */}
         <Motion className='rounded-card bg-paper-muted dark:bg-night-muted flex flex-col gap-8 p-6 sm:p-8'>
-          <Range
-            label='Tvoje hmotnost'
-            valueLabel={`${weightKg} kg`}
-            min={45}
-            max={130}
-            step={1}
-            value={weightKg}
-            onChange={setWeightKg}
-          />
-          <Select
-            label='Jídlo'
-            value={slug}
-            options={dishes.map((dishItem) => ({
-              value: dishItem.slug,
-              label: `${dishItem.name} (${dishItem.energyKcal} kcal)`,
-            }))}
-            onChange={setSlug}
-          />
+          <noscript>
+            <p className='text-ink-soft'>
+              Vlastní hmotnost a jídlo zadáš se zapnutým JavaScriptem. Vedle je výpočet pro{' '}
+              {weightKg} kg a {dish.name}.
+            </p>
+          </noscript>
+
+          <div data-requires-js className='contents'>
+            <Range
+              label='Tvoje hmotnost'
+              valueLabel={`${weightKg} kg`}
+              min={45}
+              max={130}
+              step={1}
+              value={weightKg}
+              onChange={setWeightKg}
+            />
+            <Select
+              label='Jídlo'
+              value={slug}
+              options={dishes.map((dishItem) => ({
+                value: dishItem.slug,
+                label: `${dishItem.name} (${dishItem.energyKcal} kcal)`,
+              }))}
+              onChange={setSlug}
+            />
+          </div>
           <p className='text-caption text-ink-soft mt-auto'>{calculators.satiety.disclaimer}</p>
         </Motion>
 

@@ -32,7 +32,7 @@ export default function Footer() {
           </div>
 
           {/* Links */}
-          <div className='space-y-3'>
+          <div id='odkazy' className='scroll-mt-24 space-y-3'>
             <h2 className='text-title font-semibold'>Stránky</h2>
             <ul className='text-ink-soft grid gap-1.5'>
               {navbarLinks.map((link) => (

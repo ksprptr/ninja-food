@@ -140,6 +140,7 @@ export default function Navbar() {
                     onKeyDown={(event) => event.key === 'Escape' && setDropdown(null)}>
                     <button
                       type='button'
+                      data-requires-js
                       aria-expanded={expanded}
                       aria-controls={`navbar-dropdown-${link.label}`}
                       onClick={() => setDropdown(expanded ? null : link.href)}
@@ -151,6 +152,12 @@ export default function Navbar() {
                         className={`relative transition-transform duration-300 ${expanded ? 'rotate-180' : ''}`}
                       />
                     </button>
+
+                    <noscript>
+                      <Link href={link.href} className={linkClassName}>
+                        {link.label}
+                      </Link>
+                    </noscript>
 
                     {/* Dropdown */}
                     <AnimatePresence>
@@ -213,12 +220,22 @@ export default function Navbar() {
           {/* Hamburger for mobile menu */}
           <button
             type='button'
+            data-requires-js
             aria-label='Menu'
             aria-expanded={open}
             onClick={() => setOpen(!open)}
             className='rounded-pill text-ink-soft hover:bg-paper-muted dark:hover:bg-night-raised grid size-10 place-items-center lg:hidden'>
             <HamburgerIcon size={20} />
           </button>
+
+          <noscript className='lg:hidden'>
+            <a
+              href='#odkazy'
+              aria-label='Menu'
+              className='rounded-pill text-ink-soft hover:bg-paper-muted grid size-10 place-items-center'>
+              <Menu size={20} />
+            </a>
+          </noscript>
         </div>
 
         {/* Mobile menu */}

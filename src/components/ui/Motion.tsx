@@ -18,6 +18,7 @@ export default function Motion({ as = 'div', delay, id, className, children }: R
   return (
     <MotionComponent
       id={id}
+      data-reveal
       initial={{ opacity: 0, y: 18 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: '-60px' }}

@@ -35,6 +35,7 @@ export default function Hero() {
       {/* Title, description and actions */}
       <div className='space-y-7'>
         <motion.h1
+          data-reveal
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease }}
@@ -42,6 +43,7 @@ export default function Hero() {
           Street food rychlostí ninji
         </motion.h1>
         <motion.p
+          data-reveal
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.15, duration: 0.7, ease }}
@@ -50,6 +52,7 @@ export default function Hero() {
           surovin a po Hradci ti jídlo dovezeme do hodiny.
         </motion.p>
         <motion.div
+          data-reveal
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.25, duration: 0.7, ease }}
@@ -62,6 +65,7 @@ export default function Hero() {
 
         {/* Delivery facts */}
         <motion.dl
+          data-reveal
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.45, duration: 0.8 }}
@@ -78,12 +82,14 @@ export default function Hero() {
       {/* Illustrated plate */}
       <div className='relative mx-auto aspect-square w-full max-w-136'>
         <motion.span
+          data-reveal
           initial={{ scale: 0.6, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 0.9, ease }}
           className='bg-blob absolute inset-[6%] rounded-full'
         />
         <motion.span
+          data-reveal
           initial={{ scale: 0.6, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ delay: 0.1, duration: 0.9, ease }}
@@ -91,6 +97,7 @@ export default function Hero() {
         />
         {burger && (
           <motion.div
+            data-reveal
             initial={{ y: -60, opacity: 0, rotate: -8 }}
             animate={{ y: 0, opacity: 1, rotate: 0 }}
             transition={{ delay: 0.3, type: 'spring', stiffness: 160, damping: 14 }}
@@ -107,6 +114,7 @@ export default function Hero() {
           return (
             <motion.div
               key={slug}
+              data-reveal
               initial={{ scale: 0, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               transition={{ delay, type: 'spring', stiffness: 220, damping: 16 }}
@@ -123,6 +131,7 @@ export default function Hero() {
 
         {/* Sticker */}
         <motion.p
+          data-reveal
           initial={{ scale: 0, rotate: -40 }}
           animate={{ scale: 1, rotate: -12 }}
           transition={{ delay: 0.95, type: 'spring', stiffness: 260, damping: 14 }}

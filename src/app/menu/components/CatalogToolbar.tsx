@@ -47,7 +47,7 @@ export default function CatalogToolbar({
         Nalezeno {count} jídel
       </p>
 
-      <div className='flex items-center gap-2'>
+      <div data-requires-js className='flex items-center gap-2'>
         {/* Sorting */}
         <Select
           aria-label='Řazení'

@@ -35,8 +35,15 @@ export default function CatalogSidebar({ filters, onChange, onReset }: Readonly<
 
   return (
     <aside className='lg:sticky lg:top-24'>
+      <noscript>
+        <p className='rounded-card bg-paper-muted dark:bg-night-muted text-ink-soft p-4'>
+          Filtrování a vyhledávání funguje se zapnutým JavaScriptem. Níže je celé menu.
+        </p>
+      </noscript>
+
       <button
         type='button'
+        data-requires-js
         onClick={() => setOpen(!open)}
         aria-expanded={open}
         className='rounded-pill bg-paper-muted dark:bg-night-muted flex w-full items-center justify-center gap-2 py-3 font-semibold lg:hidden'>
@@ -45,10 +52,13 @@ export default function CatalogSidebar({ filters, onChange, onReset }: Readonly<
       </button>
 
       {/* Desktop filters */}
-      <div className='hidden lg:block'>{form}</div>
+      <div data-requires-js className='hidden lg:block'>
+        {form}
+      </div>
 
       {/* Mobile filters */}
       <motion.div
+        data-requires-js
         initial={{ height: 0, opacity: 0 }}
         animate={{ height: open ? 'auto' : 0, opacity: open ? 1 : 0 }}
         transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}

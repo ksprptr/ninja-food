@@ -18,6 +18,7 @@ export default function QuestionCard({ question }: Readonly<Props>) {
 
   return (
     <div
+      data-js-interactive
       className={`rounded-card transition-colors ${
         visible
           ? 'bg-paper-muted dark:bg-night-muted'
@@ -25,11 +26,13 @@ export default function QuestionCard({ question }: Readonly<Props>) {
       }`}>
       {/* Question */}
       <button
+        data-js-interactive
         aria-expanded={visible}
         onClick={() => setVisible(!visible)}
         className='font-display text-title flex w-full cursor-pointer items-center justify-between gap-4 px-5 py-4 text-left font-medium'>
         {question.question}
         <motion.span
+          data-requires-js
           animate={{ rotate: visible ? 45 : 0 }}
           transition={{ type: 'spring', stiffness: 300, damping: 20 }}
           className={`grid size-9 shrink-0 place-items-center rounded-full transition-colors ${
@@ -43,6 +46,7 @@ export default function QuestionCard({ question }: Readonly<Props>) {
 
       {/* Answer */}
       <motion.div
+        data-expand
         initial={{ height: 0, opacity: 0 }}
         animate={{ height: visible ? 'auto' : 0, opacity: visible ? 1 : 0 }}
         transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
