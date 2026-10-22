@@ -50,11 +50,11 @@
 
 | Path             | What it holds                                                                      |
 | ---------------- | ---------------------------------------------------------------------------------- |
-| `src/app`        | Routes, components used by a single route, metadata, sitemap, robots and OG image  |
+| `src/app`        | Routes, components used by a single route, metadata, sitemap and robots            |
 | `src/components` | Shared React components, grouped by their purpose                                  |
 | `src/common`     | Enums, types, Zod validations and the functions reading the data                   |
 | `src/data`       | Content as JSON — dishes, categories, cuisines, allergens, delivery, articles, FAQ |
-| `public`         | Logo, icons and the dish illustrations                                             |
+| `public`         | Logo, icons, the dish illustrations and the Open Graph image                       |
 | `tests`          | Vitest tests                                                                       |
 
 ## Installation
@@ -105,10 +105,10 @@ docker run -d -p 8080:8080 ninja-food
 
 Configuration lives in `.env`, created from `.env.example`. Docker Compose reads the same file.
 
-| Variable               | Default                 | What it is                                                        |
-| ---------------------- | ----------------------- | ----------------------------------------------------------------- |
-| `NEXT_PUBLIC_SITE_URL` | `http://localhost:3000` | Public address of the site, used in the sitemap and in robots.txt |
-| `NINJA_FOOD_PORT`      | `8080`                  | Host port of the Docker container                                 |
+| Variable               | Default                 | What it is                                                                               |
+| ---------------------- | ----------------------- | ---------------------------------------------------------------------------------------- |
+| `NEXT_PUBLIC_SITE_URL` | `http://localhost:3000` | Public address of the site, used in the sitemap, robots.txt and the Open Graph image URL |
+| `NINJA_FOOD_PORT`      | `8080`                  | Host port of the Docker container                                                        |
 
 `NEXT_PUBLIC_SITE_URL` is inlined into the pages when they are built, so changing it needs a new build. For the container that means `docker compose up -d --build`.
 
