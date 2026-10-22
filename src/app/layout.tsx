@@ -21,13 +21,55 @@ const fraunces = Fraunces({
   variable: '--font-display',
 });
 
+// Social image shared by every page, generated once into public/
+const ogImage = {
+  url: '/images/og/og-image.png',
+  width: 1200,
+  height: 630,
+  alt: 'NinjaFood - Street food rychlostí ninji',
+};
+
+// Titles and descriptions are left out of openGraph and twitter, Next.js fills them from each page
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'),
   title: {
     template: 'NinjaFood | %s',
     default: 'NinjaFood',
   },
   description:
     'Burgery, ramen, bowly a wrapy inspirované americkou a asijskou kuchyní. S rozvozem po celém Hradci Králové.',
+  applicationName: 'NinjaFood',
+  authors: [{ name: 'Petr Kašpar', url: 'https://ksprptr.dev' }],
+  creator: 'Petr Kašpar',
+  keywords: [
+    'NinjaFood',
+    'street food',
+    'restaurace',
+    'Hradec Králové',
+    'rozvoz jídla',
+    'rozvoz Hradec Králové',
+    'burgery',
+    'ramen',
+    'bowly',
+    'wrapy',
+    'asijská kuchyně',
+    'americká kuchyně',
+    'jídelní lístek',
+    'vegetariánská jídla',
+    'veganská jídla',
+    'bez lepku',
+    'alergeny',
+  ],
+  openGraph: {
+    type: 'website',
+    locale: 'cs_CZ',
+    siteName: 'NinjaFood',
+    images: [ogImage],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: [ogImage],
+  },
 };
 
 /**
